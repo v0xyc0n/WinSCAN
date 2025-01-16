@@ -6,7 +6,15 @@ Full list of checks can be found in the [documentation](./documentation).
 
 ## How do I run it?
 
+To run all checks, you will need to download `accesschck` from microsoft sysinternals ([this](https://learn.microsoft.com/en-us/sysinternals/downloads/accesschk)). Then run it like this:
+
 `./Main.ps1 -LocationAccesschck <Path_To_accesschk_exe>`
+
+If you just want a rough overview of your systems security, you can just leave out `accesschck`:
+
+`./Main.ps1`
+
+Note though that without `accesschck`, some checks will not work 100%.
 
 ## I have limited access to a hardened system, will the tool work?
 
