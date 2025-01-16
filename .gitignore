@@ -1,0 +1,4 @@
+output/
+
+# Just in case it is misconfigured:
+ApplockerEffective.xml
