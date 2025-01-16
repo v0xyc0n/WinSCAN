@@ -1,4 +1,4 @@
-# Pentesting Assistant for Windows - PAW 🐾
+# WinSCAN - Pentesting Assistant for Windows
 
 Script to help with W11 Pentests. Checks include poking holes in Applocker rules, digging for secrets and checking shares permissions. 
 
