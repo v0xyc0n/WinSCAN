@@ -18,7 +18,7 @@ Note though that without `accesschck`, some checks will not work 100%.
 
 ## I have limited access to a hardened system, will the tool work?
 
-PAW is designed to run with as limited permissions as possible. You 
+WinSCAN is designed to run with as limited permissions as possible. You 
 - Do not need admin-privileges
 - Do not need to create any Defender exceptions
 - Do not need to downgrade powershell or disable constrained language mode
