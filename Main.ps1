@@ -29,10 +29,10 @@ $modulePath = ".\checks"
 $checks = @()
 
 Function Main() {
-    Get-ChildItem -Path $modulePath -Recurse -Filter *.psm1 | ForEach-Object {
+    Get-ChildItem -Path $modulePath -Recurse -Filter *.ps1 | ForEach-Object {
         try {
-            Import-Module $_.FullName -ErrorAction Stop
-            $checks = $checks + $_.BaseName
+            . $_.FullName
+            $checks += $_.BaseName
             Write-Debug "Successfully loaded check: $($_.FullName)"
         }
         catch {
